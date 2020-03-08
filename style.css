@@ -1,8 +1,12 @@
 body{
   font-family: 'Inter', sans-serif;
+  margin: 0px;
 }
 h1{
   font-size: 50px;
+}
+p{
+  color: dimgray;
 }
 
 .name-highlight{
@@ -11,11 +15,37 @@ h1{
 
 .half-width{
   width: 40%;
-  float: left; /*side by side*/
+  float: left;/*side by side*/
   margin-left: 5%;
   padding-left: 2%;
 }
 
 .half-width img{
   width: 100%;
+}
+
+.top-banner{
+  background-image:url("images/top-banner.png");
+  background-repeat: no-repeat;
+
+}
+section{
+  height: 500px;
+  padding-bottom: 100px;
+}
+
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(45deg,lightsalmon,tomato);/*gradient color linear 45 degree*/
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.dream-area{
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+
 }
