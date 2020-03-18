@@ -1,0 +1,137 @@
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0px;
+}
+
+.half-width{
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  
+  
+}
+.half-width p{
+  margin-bottom: 50px;
+}
+
+#img2{
+  padding: 20px;
+  height: 80%;
+  width: 80%;
+}
+
+.half-width img{
+  width: 100%;
+  height: 100%;
+}
+.top-banner{
+  background-image: url("images-port/header-bg.png");
+  background-repeat: no-repeat;
+}
+section{
+  height: 500px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.biography-area{
+  background-image: url("images-port/biography-bg.png");
+  background-repeat: no-repeat;
+}
+
+.biography-area h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.orange-highlight{
+  color: orange;
+}
+#button1{
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg,lightsalmon,tomato);
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+#button2{
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg,rgb(228, 104, 215),rgb(177, 21, 174));
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+ 
+}
+.one-third{
+  float: left;
+  width: 25%;
+  padding-left: 3%;
+  margin-left: 2%;
+}
+.one-third img{
+  width:100%;
+  box-shadow: 10px 10px 40px gray;
+}
+.work-area{
+  background-image: url("images-port/latest-work-bg.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.work-area h1{
+  text-align: center;
+  padding: 50px;
+}
+
+.contact-area{
+  background-image: url("images-port/footer-bg.png");
+  background-repeat: no-repeat;
+}
+.contact-area h1{
+  text-align: center;
+}
+.contact-area h3{
+  text-align: center;
+  border-bottom: 0ch;
+}
+.contact-area h5{
+  text-align: center;
+  color: gray;
+  border: 0ch;
+}
+.contact-area p{
+  text-align: center;
+
+}
+.contact-area h2{
+  text-align: center;
+  color: white;
+}
+.names{
+  margin: 50px;
+}
+#message{
+  height: 120px;
+  width: 400px;
+  background-image: linear-gradient(45deg,violet,rgb(195, 24, 195));
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#message p{
+  color: whitesmoke;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 5px;
+  padding-bottom: bottom 10px;
+}
